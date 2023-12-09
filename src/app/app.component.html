@@ -1,0 +1,40 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img
+    width="100"
+    alt="Innspark Logo"
+    src="../assets/innspark-logo.png"
+  />
+  <span style="color: #7b7b7b; letter-spacing: 3px; margin-left: 15px;">BIG DATA SECURITY ANALYTICS PLATFORM</span>
+    <div class="spacer"></div>
+    <a title="Notification" >
+      <i class="fa fa-bell" aria-hidden="true" style="color: black; font-size: 12px;"></i>
+      <span class="custom-number">12</span>
+      <i class="fa fa-solid fa-arrow-down" aria-hidden="true" style="color: black; font-size: 10px;"></i>
+    </a>
+    <a title="Warning" style="margin-left: 20px;">
+      <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: black; font-size: 12px;"></i>
+      <span class="custom-number">2299</span>
+      <i class="fa fa-solid fa-arrow-down" aria-hidden="true" style="color: black; font-size: 10px;"></i>
+    </a>
+    <span title="Profile" style="margin-left: 20px; margin-right: 10px;">
+      <i class="fa fa-solid fa-user" aria-hidden="true" style="color: black; font-size: 18px; margin-left: 8px;">    
+      </i>
+      <span style="color: black; font-size: 10px; display: inherit;">Admin</span>
+    </span>
+</div>
+<div class="mt-1"></div>
+<div class="mt-1 pt-3" class="custom-menu-text">
+  <div class="pt-2" style="text-align: center;">
+   <span class="custom-menu"><a routerLink="/home" routerLinkActive="active">HOME</a></span>
+   <span class="custom-menu"><a routerLink="/monitor" routerLinkActive="active">MONITOR</a></span>
+   <span class="custom-menu"><a routerLink="/search" routerLinkActive="active">SEARCH</a></span>
+   <span class="custom-menu"><a routerLink="/threats" routerLinkActive="active">THREATS</a></span>
+   <span class="custom-menu"><a routerLink="/ueba" routerLinkActive="active">UEBA</a></span>
+   <span class="custom-menu"><a routerLink="/soar" routerLinkActive="active">SOAR</a></span>
+   <span class="custom-menu"><a routerLink="/services" routerLinkActive="active">SERVICES</a></span>
+   <span class="custom-menu"><a routerLink="/reports" routerLinkActive="active">REPORTS</a></span>
+   <span class="custom-menu"><a routerLink="/administration" routerLinkActive="active">ADMINISTRATION</a></span>
+  </div>
+  <router-outlet></router-outlet>
+</div>
